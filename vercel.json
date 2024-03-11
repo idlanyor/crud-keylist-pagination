@@ -1,0 +1,13 @@
+{
+    "build": {
+        "ignore": [
+            "app/contacts/page.tsx"
+        ]
+    },
+    "rewrites": [
+        {
+            "source": "^/(api|_next|static)/(.*)",
+            "destination": "/$1/$2"
+        }
+    ]
+}
